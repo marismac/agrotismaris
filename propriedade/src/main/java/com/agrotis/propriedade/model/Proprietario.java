@@ -22,9 +22,9 @@ public class Proprietario {
 	private LocalDateTime dataInicial;
 	@NotNull
 	private LocalDateTime dataFinal;
-	private long idpropriedade;
-	private long cnpj;
-	private long idlaboratorio;
+	
+	private long cnpj_propriedade;
+	private long cd_laboratorio;
 	@Size(min=0, max=1000)
 	private String observacoes;
 	
