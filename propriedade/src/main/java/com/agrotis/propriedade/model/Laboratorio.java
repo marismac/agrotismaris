@@ -8,7 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
-
+import org.springframework.data.relational.core.mapping.Table;
 import lombok.Data;
 
 @Data

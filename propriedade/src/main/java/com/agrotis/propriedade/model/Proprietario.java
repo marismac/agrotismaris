@@ -1,5 +1,5 @@
 package com.agrotis.propriedade.model;
-
+import org.springframework.data.relational.core.mapping.Table;
 import java.sql.Date;
 import java.time.LocalDateTime;
 
